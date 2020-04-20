@@ -121,6 +121,7 @@ class M4CBase:
         self.equipment_requests = MyAirtable(AIRTABLE_M4C_BASE_KEY, 'tbl6yaV3QsOjAnoIq', api_key=AIRTABLE_API_KEY)
         self.key_locations = MyAirtable(AIRTABLE_M4C_BASE_KEY, 'tblyRQF7ekQsGQauh', api_key=AIRTABLE_API_KEY)
         self.messages = MyAirtable(AIRTABLE_M4C_BASE_KEY, 'tblxeZ6CrHQgTwRbC', api_key=AIRTABLE_API_KEY)
+        self.regions = MyAirtable(AIRTABLE_M4C_BASE_KEY, 'tbl6Q1WRJVatjOJsc', api_key=AIRTABLE_API_KEY)
     
     @property
     def tables(self):
